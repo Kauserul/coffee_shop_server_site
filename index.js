@@ -20,12 +20,20 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 async function run() {
     try {
         const homePageCoffee = client.db('coffeeShop').collection('homePageCoffee')
+        const allCoffeeLists = client.db('coffeeShop').collection('allCoffeeList')
         // console.log(homePageCoffee2)
 
         app.get('/homePageCoffeeList', async(req, res) =>{
             const query = {}
             const coffeeList = await homePageCoffee.find(query).toArray()
             res.send(coffeeList)
+        })
+
+        app.get('/allCoffeeLists', async(req, res) =>{
+            const query = {}
+            const allCoffeeList = await allCoffeeLists.find(query).toArray()
+            // console.log(allCoffeeList)
+            res.send(allCoffeeList)
         })
 
 
