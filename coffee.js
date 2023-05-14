@@ -53,4 +53,31 @@
         "des": "Espresso, and Smoothed Layer of Foam",
         "price": "$4.03"
     },
+],
+
+[
+    {
+        "img": "https://barista.qodeinteractive.com/elementor/wp-content/uploads/2017/01/h-1-list-icon-img-150x150.jpg",
+        "name": "CAFFE LATTE",
+        "des": "Fresh brewed coffee and steamed milk",
+        "price": "$2.95"
+    },
+    {
+        "img": "https://barista.qodeinteractive.com/elementor/wp-content/uploads/2017/01/h-1-list-icon-img-8-150x150.jpg",
+        "name": "ICED CARAMEL LATTE",
+        "des": "Espresso, Milk, Ice and Caramel Sauce",
+        "price": "$4.67"
+    },
+    {
+        "img": "https://barista.qodeinteractive.com/elementor/wp-content/uploads/2017/01/h-1-list-icon-img-2-150x150.jpg",
+        "name": "CAFFE MOCHA",
+        "des": "Espresso With Milk, and Whipped Cream",
+        "price": "$3.67"
+    },
+    {
+        "img": "https://barista.qodeinteractive.com/elementor/wp-content/uploads/2017/01/h-1-list-icon-img-7-150x150.jpg",
+        "name": "ESPRESSO MACCHIATO",
+        "des": "Rich Espresso With Milk and Foam",
+        "price": "$2.98"
+    },
 ]
